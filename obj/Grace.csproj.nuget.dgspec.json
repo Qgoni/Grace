@@ -45,6 +45,10 @@
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[4.7.0-ci374, )"
+            },
+            "VisualStudio.gitignore": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [

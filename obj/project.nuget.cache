@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JM/kyypwV2+Ct5zMgV6tdW/S088yulAiECRg8QB1uqAJuzL8eO26c6DQxc2OM84lrmI8IQIqlfhghfz9JO4jsw==",
+  "dgSpecHash": "JYNGbP3MPUYQyP8skbHMkCkvFEkarThp9uhjYgFu2FpAGFDi3yIXTfj4NUzdF/ejsuLPUBoRwV9IIazgzZwNVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\III\\RiderProjects\\Grace\\Grace\\Grace.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,8 @@
     "C:\\Users\\III\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "C:\\Users\\III\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\III\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
-    "C:\\Users\\III\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\III\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\III\\.nuget\\packages\\visualstudio.gitignore\\1.0.1\\visualstudio.gitignore.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }

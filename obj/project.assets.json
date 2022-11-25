@@ -382,6 +382,9 @@
             "rid": "win"
           }
         }
+      },
+      "VisualStudio.gitignore/1.0.1": {
+        "type": "package"
       }
     }
   },
@@ -1210,12 +1213,27 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "VisualStudio.gitignore/1.0.1": {
+      "sha512": "uF3VC/z+BWxr6q16MisLgpKm8YtzcfAE72nmo8nY4W3s0AFzGWecPKOUsc41qeQeUI/dU4cBduTMf6ccXMx3Zw==",
+      "type": "package",
+      "path": "visualstudio.gitignore/1.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "tools/init.ps1",
+        "visualstudio.gitignore.1.0.1.nupkg.sha512",
+        "visualstudio.gitignore.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "EntityFramework >= 6.4.4",
-      "MaterialDesignThemes >= 4.7.0-ci374"
+      "MaterialDesignThemes >= 4.7.0-ci374",
+      "VisualStudio.gitignore >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -1262,6 +1280,10 @@
           "MaterialDesignThemes": {
             "target": "Package",
             "version": "[4.7.0-ci374, )"
+          },
+          "VisualStudio.gitignore": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [
