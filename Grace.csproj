@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>..\..\..\Desktop\09_1.2-2022_10\Вариант 10\Вариант 10\Общие ресурсы\logo.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="EntityFramework" Version="6.4.4" />
+      <PackageReference Include="MaterialDesignThemes" Version="4.7.0-ci374" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\..\Desktop\09_1.2-2022_10\Вариант 10\Вариант 10\Общие ресурсы\logo.ico">
+        <Link>Resources\logo.ico</Link>
+      </Content>
+      <Content Include="..\..\..\Desktop\09_1.2-2022_10\Вариант 10\Вариант 10\Общие ресурсы\logo.png">
+        <Link>Resources\logo.png</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>

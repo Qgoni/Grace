@@ -1,0 +1,76 @@
+﻿<Window x:Class="Grace.RegForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="RegForm" Height="480" Width="720">
+    
+    <Grid>
+        <Border Background="White"
+                Height="30"
+                BorderBrush="#76E383" 
+                BorderThickness="1.5" 
+                MaxWidth="250" 
+                MinHeight="50" 
+                Margin="340 -70 10 210">
+         <Label Margin="20 0 15 2 " 
+                MaxWidth="130" 
+                MaxHeight="34" 
+                FontSize="20" 
+                FontWeight="Bold">Регистрация</Label>
+     </Border>
+        <Border Background="White" 
+                Height="40" 
+                BorderBrush="#76E383" 
+                BorderThickness="1.5"
+                MaxWidth="250" 
+                MinHeight="280" 
+                Margin="370 110 40 20"
+                >
+            <TextBox 
+                x:Name="TextBoxLogReg"
+                Margin="0 -50 0 60" 
+                     Background="White" 
+                     BorderBrush="#76E383" 
+                     BorderThickness="1" 
+                     Height="30" 
+                     Width="200" 
+                     FontSize="14"
+                     >
+            </TextBox> 
+        </Border>
+        <Border Height="24" 
+                Width="45" 
+                Margin="330 -70 150  0">
+            <Label FontSize="12"
+                   >Логин</Label>
+        </Border>
+        <Border Margin="0 -60 0 0">
+            <PasswordBox x:Name="TextPassBoxReg"
+                         Margin="340 230 10 60" 
+                       Background="White" 
+                       BorderBrush="#76E383" 
+                       BorderThickness="1" 
+                       Height="30" 
+                       Width="200" 
+                       FontSize="16">
+            </PasswordBox> 
+        </Border>
+        <Border Height="29" Width="50" Margin="190 60 0 0 ">
+            <Label>Пароль</Label>
+        </Border>
+        <Button
+            Name="Registration"
+            Click="Registration_OnClick"
+            Margin="335 250 0 0"
+            MaxWidth="200" MaxHeight="90"  FontWeight="Normal" >Регистрация</Button>
+        <Border >
+            <Image  Height="290" Margin="0 -30 340 0 " Source="C:\Users\III\Desktop\09_1.2-2022_10\Вариант 10\Вариант 10\Общие ресурсы\logo.png"></Image>
+        </Border>
+        <Border MaxHeight="90" MaxWidth="250" Margin="0 359 280 0">
+            <Label FontSize="30" Foreground="Black" FontWeight="Bold">БЛАГОДАТЬ</Label>
+        </Border>
+    </Grid>
+</Window>
